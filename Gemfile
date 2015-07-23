@@ -37,21 +37,22 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-gem "bootstrap-sass", "~> 3.3.3"
+gem 'bootstrap-sass', '~> 3.3.3'
 gem 'slim-rails'
+gem 'websocket-rails'
 
 # Use rspec
 group :development, :test do
   gem 'rspec-rails'
-  gem "factory_girl_rails"
-  gem "pry-byebug"
+  gem 'factory_girl_rails'
+  gem 'pry-byebug'
 end
 
 group :development do
   # schema write
   gem 'annotate'
-  gem "guard"
-  gem "guard-rspec"
-  gem "guard-rubocop"
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'guard-rubocop'
 end
 
